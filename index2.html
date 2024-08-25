@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+   <div class="container">
+    <div class="todo-box">
+        <h1>Todo List</h1>
+        <div class="input-group">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button class="add-task"  id="add-task-btn">Add Task</button>
+        </div>
+        <ul class="task-list" id="task-list">
+            <li>
+                Javascript
+                <button class="delete-task" onclick="deleteTask(this)">Delete</button>
+            </li>
+            <li>
+                Todo List
+                <button class="delete-task" onclick="deleteTask(this)">Delete</button>
+            </li>
+            <li>
+                Project
+                <button class="delete-task" onclick="deleteTask(this)">Delete</button>
+            </li>
+        </ul>
+        
+    </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
